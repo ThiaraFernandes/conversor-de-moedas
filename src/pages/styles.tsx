@@ -23,6 +23,12 @@ export const Container = styled.div`
   padding: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  @media (max-width: 425px) {
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -33,6 +39,10 @@ export const Title = styled.h1`
   gap: 12px;
   margin: 0 0 25px 0;
   font-weight: 600;
+
+  @media (max-width: 425px) {
+    font-size: 1.3rem;
+  }
 `;
 
 export const Icon = styled(FaExchangeAlt)`
@@ -45,12 +55,16 @@ export const Subtitle = styled.h2`
   color: #4a5568;
   margin: 0 0 8px 0;
   font-weight: 500;
+
+  @media (max-width: 425px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const InputContainer = styled.div`
   width: 100%;
   margin-bottom: 20px;
-  
+
   .input-wrapper {
     position: relative;
     width: 100%;
@@ -68,25 +82,25 @@ export const SelectMoeda = styled.select`
   color: #2d3748;
   transition: border 0.2s;
   appearance: none;
-
-  /* Espaço para a setinha */
-  padding-right: 30px; 
-
-  /* Adicionando a setinha personalizada */
+  padding-right: 30px;
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"%3E%3Cpath fill="none" stroke="%23333" stroke-width="2" d="M4 6l4 4 4-4" /%3E%3C/svg%3E');
   background-repeat: no-repeat;
-  background-position: right 10px center; 
-
+  background-position: right 10px center;
 
   &:focus {
     border-color: #4299e1;
     outline: none;
   }
+
+  @media (max-width: 425px) {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
 `;
 
 export const InputField = styled.input`
   width: 100%;
-  padding: 12px 15px ;
+  padding: 12px 15px;
   font-size: 0.95rem;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
@@ -96,6 +110,11 @@ export const InputField = styled.input`
   &:focus {
     border-color: #4299e1;
     outline: none;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 0.9rem;
+    padding: 10px;
   }
 `;
 
@@ -115,6 +134,11 @@ export const Button = styled.button`
   &:hover {
     background: #4c51bf;
   }
+
+  @media (max-width: 425px) {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
 `;
 
 export const Result = styled.div`
@@ -129,12 +153,14 @@ export const Result = styled.div`
   align-items: center;
   justify-content: center;
   gap: 16px;
-  color: #2d3748;
-  font-size: 20px;
   font-weight: bold;
 
   svg {
     font-size: 24px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 18px;
   }
 `;
 
@@ -142,7 +168,3 @@ export const ArrowIcon = styled(FaArrowRight)`
   color: #4a5568;
   font-size: 22px;
 `;
-
-
-
-
