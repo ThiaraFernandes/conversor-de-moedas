@@ -1,12 +1,14 @@
-  Conversor de Moedas
+  # 🏆 Conversor de Moedas
 
 ![Tela do Projeto](./public/screenshot.png)
 
-📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Este é um Conversor de Moedas desenvolvido em React com Styled Components. Ele permite converter valores entre diferentes moedas de forma simples e intuitiva.
 
-🚀 Tecnologias Utilizadas
+
+
+## 🚀 Tecnologias Utilizadas
 
 ⚛️ React
 
@@ -17,33 +19,28 @@ Este é um Conversor de Moedas desenvolvido em React com Styled Components. Ele 
 📦 Vite (para ambiente de desenvolvimento rápido)
 
 
-🔧 Como Rodar o Projeto
 
-Clone o repositório
+## 🔧 Como Rodar o Projeto
 
-  git clone https://github.com/seu-usuario/conversor-moedas.git
+### Clone o repositório
+git clone https://github.com/seu-usuario/conversor-moedas.git
 
-Acesse a pasta do projeto
+### Acesse a pasta do projeto
+cd conversor-moedas
 
-  cd conversor-moedas
+### Instale as dependências
+npm install
 
-Instale as dependências
+### Execute o projeto
+npm run dev
 
-  npm install
-
-Execute o projeto
-
-  npm run dev
-
-Abra no navegador
+**Abra no navegador**
 
 http://localhost:5173
 
-📷 Exemplo de Uso
 
-Adicione aqui prints mostrando o funcionamento do seu conversor de moedas.
 
-📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo! 😊
 
