@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaMoneyBillWave, FaDollarSign, FaEuroSign, FaArrowRight } from "react-icons/fa";
+import { FaMoneyBillWave, FaDollarSign, FaEuroSign } from "react-icons/fa";
 import { Container, Title, Subtitle, InputContainer, SelectMoeda, InputField, Button, Result, Icon, ArrowIcon } from "./styles";
 import styled from "styled-components"; 
 
